@@ -1,0 +1,21 @@
+Package: fsgor
+Type: Package
+Title: Package for Fold-specific GO Terms Recognition
+Version: 0.99.0
+Author: Daniil Wiebe <daniil.wiebe@gmail.com> [aut, cre]
+Maintainer: Daniil Wiebe <daniil.wiebe@gmail.com>
+Description: R package for fold-specific functional annotation. 
+              Allows to annotate gene sets derived from expression experiments 
+              separating them in to quantiles and recognize fold-specific GO terms.
+Depends: R (>= 3.4.0)
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+biocViews: DifferentialExpression, GeneExpression, GO, Software
+RoxygenNote: 6.0.1
+Imports: ggplot2,
+    igraph,
+    tidyr
+Suggests: knitr,
+    rmarkdown
+VignetteBuilder: knitr
